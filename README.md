@@ -15,4 +15,16 @@ for real-time object detection and multimodal inference. 🚀👁️
    ```bash
    llama-server -hf ggml-org/SmolVLM-500M-Instruct-GGUF
    ```
+
 💡 Tip: You may need to add *-ngl 99* to enable GPU acceleration (NVIDIA), if available.
+
+### Advanced setup
+
+```bash
+llama-server \
+  --model ~/.cache/llama.cpp/ggml-org_SmolVLM-500M-Instruct-GGUF_SmolVLM-500M-Instruct-Q8_0.gguf \
+  --mmproj ~/.cache/llama.cpp/ggml-org_SmolVLM-500M-Instruct-GGUF_mmproj-SmolVLM-500M-Instruct-Q8_0.gguf \
+  --gpu-layers -1 \
+  --ctx-size 4096
+```  
+
