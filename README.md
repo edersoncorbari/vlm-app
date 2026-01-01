@@ -3,6 +3,8 @@
 Simple experiments using the [SmolVLM](https://huggingface.co/blog/smolvlm) model running locally via a [llama.cpp](https://github.com/ggml-org/llama.cpp) server. The project leverages the **SmolVLM 500M** model 
 for real-time object detection and multimodal inference. 🚀👁️
 
+![app](./img/e1.png)
+
 ## Setup & Usage
 
 1. **Install `llama.cpp`**  
